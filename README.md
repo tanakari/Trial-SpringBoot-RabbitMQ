@@ -7,3 +7,9 @@ SpringBoot × RabbitMQ のお試し
 ```
 ./gradlew :mq-sender:bootRun
 ```
+
+## MQ 受信アプリの起動
+
+```
+./gradlew :mq-reciver:bootRun
+```

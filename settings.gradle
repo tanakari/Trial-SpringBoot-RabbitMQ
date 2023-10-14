@@ -9,4 +9,4 @@
 
 rootProject.name = 'Trial-SpringBoot-RabbitMQ'
 
-include("mq-sender")
+include("mq-sender", "mq-reciver")
