@@ -13,3 +13,9 @@ SpringBoot × RabbitMQ のお試し
 ```
 ./gradlew :mq-reciver:bootRun
 ```
+
+## MQ 送信
+
+```
+curl -X POST -d "message=テスト" http://localhost:8080/send
+```
